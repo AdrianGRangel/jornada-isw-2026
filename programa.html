@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programa</title>
+    <link rel="stylesheet" href="/styles_programa.css">
 </head>
+
 <body>
         <nav class="navbar">
         <a href="index.html" class="logo-container">
             <img src="img/logo-ues.png" alt="Logo de la universiadad" class="logo-img">
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="programa.html">Programa</a></li>
-        </ul>
         </a>
+        <div class="nav-container">
+            <a href="index.html">Inicio</a>
+            <a href="programa.html">Programa</a>
+        </div>
     </nav>
 
     <div style="padding: 40px; text-align: center;">
         <h1>Actividades que se llevaran acabo</h1>
     </div>
 
+    <div class="table-container">
     <table border="1px" style="position: fixed;">
         <thead>
             <tr>
@@ -227,6 +230,7 @@
 
             </tbody>
     </table>
+    </div>
 
     <dialog id="modalInscripcion">
     <h2>Formulario de Inscripción</h2>
